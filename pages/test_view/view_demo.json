@@ -1,0 +1,87 @@
+{
+  "data": [
+    {
+      "userID": "userId1",
+      "avator": "./test.png",
+      "userName": "yeyuguo",
+      "nickName": "小叶",
+      "latest_receive_num": 1,
+      "receive_random": [
+        {
+          "userID": "userId2",
+          "create_time": "2017-07-25 12:24:22"
+        },
+        {
+          "userID": "userId1",
+          "create_time": "2017-07-25 13:24:22"
+        }
+      ],
+      "create_random": [
+        {
+          "userID": "userId2",
+          "create_time": "2017-07-25 11:24:22"
+        },
+        {
+          "userID": "userId3",
+          "create_time": "2017-07-25 12:24:32"
+        },
+        {
+          "userID": "userId1",
+          "create_time": "2017-07-25 13:24:22"
+        }
+      ]
+    },
+    {
+      "userID": "userId2",
+      "avator": "./test2.png",
+      "userName": "yeyuguo2",
+      "nickName": "小叶2",
+      "receive_random": [
+        {
+          "userID": "userId3",
+          "create_time": "2017-07-25 12:24:32"
+        },
+        {
+          "userID": "userId1",
+          "create_time": "2017-07-25 13:24:22"
+        }
+      ],
+      "create_random": [
+        {
+          "userID": "userId1",
+          "create_time": "2017-07-25 13:24:22"
+        },
+        {
+          "userID": "userId3",
+          "create_time": "2017-07-25 12:24:32"
+        }
+      ]
+    },
+    {
+      "userID": "userId3",
+      "avator": "./test3.png",
+      "userName": "yeyuguo3",
+      "nickName": "小叶3",
+      "receive_random": [
+        {
+          "userID": "userId2",
+          "create_time": "2017-07-25 12:24:22"
+        }
+      ],
+      "create_random": [
+        {
+          "userID": "userId2",
+          "create_time": "2017-07-25 11:24:22"
+        },
+        {
+          "userID": "userId3",
+          "create_time": "2017-07-25 12:24:32"
+        },
+        {
+          "userID": "userId1",
+          "create_time": "2017-07-25 13:24:22"
+        }
+      ]
+    }
+  ]
+}

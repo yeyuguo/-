@@ -1,0 +1,17 @@
+
+/* view_demo.wxss */
+.container{
+  padding:0;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  width: 68rpx;
+  height: 68rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background-size:cover;
+}

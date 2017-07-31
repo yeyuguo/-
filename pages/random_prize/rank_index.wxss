@@ -1,0 +1,58 @@
+/* rank_index.wxss */
+
+.container{
+  padding:0;
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+}
+
+.create_random{
+  width: 100%;
+  height: 400rpx;
+  border:1px solid #444;
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.result{
+  
+}
+#create_random{
+  width:60%;
+  border:1px solid #444;
+  border-radius: 10rpx;
+  padding:10rpx;
+}
+.create_random button{
+  width:300rpx;
+  align-self: flex-end;
+}
+
+.rank_temp{
+  display: flex;
+  justify-content:flex-start;
+  align-items:center;
+  flex-direction: row;
+}
+.rank_temp text{
+  width:120rpx;
+}
+.avatar {
+  width: 68rpx;
+  height: 68rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background-size:cover;
+}

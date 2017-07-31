@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto" hover-class="hoverView">
+    <icon type="success" />
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+  <contact-button type="default-dark" style='margin-top:50rpx;'>联系我的小蜜</contact-button>
+  <navigator hover-class="hoverView" url="../test_view/view_demo" style='margin-top:50rpx;'>进入demo页面</navigator>
+  <navigator hover-class="hoverView" url="../random_prize/rank_index" style='margin-top:50rpx;'>进入 随机奖励 页面</navigator>
+</view>

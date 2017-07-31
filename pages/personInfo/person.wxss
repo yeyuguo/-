@@ -1,0 +1,36 @@
+/* person.wxss */
+.container{
+  display: flex;
+  
+}
+.maxHeigth{
+  border:1rpx solid #444;
+  padding: 20rpx;
+  height: 550rpx;
+  overflow: auto;
+  margin: 20rpx 0;
+  width: 90%;
+  border-radius: 5rpx;
+}
+.avatar {
+  width: 68rpx;
+  height: 68rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  background-size:cover;
+}
+
+.creater{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: row;
+  font-size: 30rpx;
+}
+.creater text{
+  width:120rpx;
+  font-size: 20rpx;
+}
+.creater text.nickName{
+  font-size: 30rpx;
+}

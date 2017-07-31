@@ -1,0 +1,17 @@
+<!--view_demo.wxml-->
+<view class="container">
+  <text>view_demo.wxml</text>
+  <view class="classname">可把你牛逼坏了</view>
+  <progress percent="{{progress.length}}"/>
+  <text>渲染数据：</text>
+  <view class='flex' wx:for="data_array">
+    <image bindtap="link" src="{{item.avatar}}" class="avatar"></image>
+    <text> {{item.nickName}}: 收到的随机点赞数为 {{item.receive_random.length}} </text>
+  </view>
+
+  <template data="{{data_array}}">
+    <view wx:for="{{data_array}}">
+      <text> {{index}}: {{item.userID}} </text>
+    </view>
+  </template>
+</view>

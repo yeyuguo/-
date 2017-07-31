@@ -1,0 +1,17 @@
+<!--rank_index.wxml-->
+<text>rank_index.wxml</text>
+<view class="container">
+  <view class="classname">可把你牛逼坏了</view>
+  <view class="create_random">
+    <input id="create_random" type="text" bindblur="bindBlur" placeholder="请输入用户ID" value=""/>
+    <view class="result">随机赞到的人是:<text id="random_who">{{allPeople[receiver].nickName}}</text></view>
+    <button catchtap="create_random" type="primary">随机赞</button>
+  </view>
+  <text>渲染数据：</text>
+  <view class='rank_temp' wx:for="{{rank}}" wx:key="{{item.userID}}">
+    {{index+1}}.
+      <image data-user="{{allPeople[item].userID}}"  catchtap="link" src="{{allPeople[item].avatar}}" class="avatar"></image>
+    <text>{{allPeople[item].nickName}}: </text>收到的随机点赞数为 {{allPeople[item].receive_random.length}} 
+  </view>
+</view>
+

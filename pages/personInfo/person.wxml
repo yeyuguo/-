@@ -1,0 +1,23 @@
+<!--person.wxml-->
+<text>person.wxml</text>
+<view class="container">
+  <view class="classname">可把你牛逼坏了</view>
+  <text>谁给 {{allPeople[current_user].nickName}} 点了赞</text>
+  <view class="maxHeigth">
+    <view class='creater' wx:for="{{allPeople[current_user].receive_random}}" wx:key="{{*this}}">
+      {{index+1}}.
+      <text>{{item.create_time}}</text>
+      <image data-user="{{item.userID}}" catchtap="link" src="{{allPeople[item.userID].avatar}}" class="avatar"></image>
+      <text class="nickName">为 {{allPeople[item.userID].nickName}} </text>点赞 +1 
+    </view> 
+  </view>
+  <text>{{allPeople[current_user].nickName}} 给谁点了赞</text>
+  <view class="maxHeigth">
+    <view class='creater' wx:for="{{allPeople[current_user].create_random}}" wx:key="{{*this}}">
+      {{index+1}}.
+      <text>{{item.create_time}}</text>
+      <image data-user="{{item.userID}}" catchtap="link" src="{{allPeople[item.userID].avatar}}" class="avatar"></image>
+      <text class="nickName">{{allPeople[item.userID].nickName}}</text> 点赞 +1 
+    </view>
+  </view> 
+</view>  
